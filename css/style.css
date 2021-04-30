@@ -32,6 +32,12 @@
     width: 32px;
 }
 
+#next-previous {
+    font-family: 'Montserrat', sans-serif;
+    color: #fde428;
+    padding-top: 145px;
+}
+
 .main-heading-wrapper {
     margin-top: 210px;
     width: 100%;
@@ -198,6 +204,7 @@
     text-align: left;
     font-size: 16px;
     color: #333333;
+    height: 200px;
 }
 
 .card-description li {
@@ -278,4 +285,41 @@ header {
     display: inline-block;
     font-size: 16px;
     color: #fde428;
+}
+
+.footer-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.map-ico {
+    padding-left: 39px;
+    color: #002e5b;
+    padding-top: 33px;
+}
+
+.map-add {
+    padding-left: 22px;
+    color: #002e5b;
+}
+
+.card-heading h3 {
+    padding-left: 39px;
+}
+
+#selector-dropdown {
+    color: white;
+}
+
+.testimony-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.testimony {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 40px;
 }

@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/layout.css">
 
+    <style>
+
+    </style>
 
 </head>
 
@@ -43,14 +46,14 @@
                             <li class="nav-item"> <a href="#">WHAT  WE BEST</a></li>
                             <li class="nav-item"> <a href="#">TESTIMONY</a> </li>
                             <li class="nav-item"> <a href="#">CONTACT</a> </li>
-                            <li class="nav-item"><img id="language-selector" src="./images/english.png" alt="english-flag"></li>
+                            <li class="nav-item"><img id="language-selector" src="./images/english.png" alt="english-flag"><i id="selector-dropdown" class="fas fa-caret-down"></i></li>
                         </ul>
                     </div>
                 </nav>
 
                 <div class="main-heading-wrapper clearfix">
                     <div id="next-previous">
-                        previous / next
+                        <i class="fas fa-long-arrow-alt-left"></i> PREVIOUS / NEXT <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                     <div>
                         <div id="main-title">
@@ -245,12 +248,13 @@
                     <span id="big-quote">"</span>
 
                 </div>
-                <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sequi vitae officiis laudantium rerum quisquam neque expedita corporis non nobis quibusdam, numquam ex aliquid possimus, autem nesciunt vel adipisci? Fugit?</p>
+                <div class="testimony">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Seddo eiusmod tempor incididunt ut labore Standard Dummy aliqua. Utenim adminim veniam, quis nostrud exercitation ullamco laboris nisi ut Unknown Printer The Commodo consequat.
+                        Duis aute irure dolor. Voluptate velit esse cillum dolore eu fugiat nullapariatur.</p>
                 </div>
                 <div>
                     <img src="./images/long-hypen.png" alt="long-hypen">
-                    <span>SHYAM ISBISTER</span>
+                    <span class="testimony-name">SHYAM ISBISTER</span>
                     <img src="./images/long-hypen.png" alt="long-hypen">
                 </div>
             </div>
@@ -261,12 +265,12 @@
         <div id="popular-service-wrapper">
             <div id="popular-service" class="container">
                 <div id="popular-service-header">
-                    <div class="heading">
+                    <div class="popular-heading">
                         <h2>CONTACT WITH US</h2>
                     </div>
 
                     <div class="sub-heading">
-                        <P class="small-description">
+                        <P class="description-subtext">
                             Rapid solutions to the most complex business challenges with cooperative process-driven.
                         </P>
                     </div>
@@ -284,9 +288,9 @@
                         </div>
 
                         <div class="card-description">
-                            <li><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP, Los Angelos, USA </li>
-                            <li><i class="fas fa-mobile-alt"></i>+445 6231 411</li>
-                            <li><i class="fas fa-envelope"></i>+445 6231 411</li>
+                            <li><i class="fas fa-map-marker-alt map-ico"></i> <span class="map-add">14 Mao Road, N1 4EP, Los Angelos, USA</span></li>
+                            <li><i class="fas fa-mobile-alt map-ico"></i><span class="map-add">+445 6231 411</span></li>
+                            <li><i class="fas fa-envelope map-ico"></i><span class="map-add">+445 6231 411</span></li>
                         </div>
                     </div>
 
@@ -301,9 +305,9 @@
                         </div>
 
                         <div class="card-description">
-                            <li><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP, Los Angelos, USA </li>
-                            <li><i class="fas fa-mobile-alt"></i>+445 6231 411</li>
-                            <li><i class="fas fa-envelope"></i>+445 6231 411</li>
+                            <li><i class="fas fa-map-marker-alt map-ico"></i> <span class="map-add">14 Mao Road, N1 4EP, Los Angelos, USA</span></li>
+                            <li><i class="fas fa-mobile-alt map-ico"></i><span class="map-add">+445 6231 411</span></li>
+                            <li><i class="fas fa-envelope map-ico"></i><span class="map-add">+445 6231 411</span></li>
                         </div>
 
 
@@ -321,9 +325,9 @@
                         </div>
 
                         <div class="card-description">
-                            <li><i class="fas fa-map-marker-alt"></i>14 Mao Road, N1 4EP, Los Angelos, USA </li>
-                            <li><i class="fas fa-mobile-alt"></i>+445 6231 411</li>
-                            <li><i class="fas fa-envelope"></i>+445 6231 411</li>
+                            <li><i class="fas fa-map-marker-alt map-ico"></i> <span class="map-add">14 Mao Road, N1 4EP, Los Angelos, USA</span></li>
+                            <li><i class="fas fa-mobile-alt map-ico"></i><span class="map-add">+445 6231 411</span></li>
+                            <li><i class="fas fa-envelope map-ico"></i><span class="map-add">+445 6231 411</span></li>
                         </div>
                     </div>
                 </div>
@@ -333,8 +337,8 @@
     </section>
 
     <footer>
-        <div class="container clearfix">
-            <div style="padding: 20px;">
+        <div class="footer-container clearfix">
+            <div class="">
 
                 <div id="copyright-text">
                     Copyright <a class="footer-link">Symu.co</a>

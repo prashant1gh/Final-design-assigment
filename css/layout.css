@@ -42,7 +42,7 @@ nav {
 }
 
 .vcenter {
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .description1-wrapper {
@@ -188,13 +188,13 @@ nav {
 }
 
 footer {
-    height: 50px;
+    height: 60px;
 }
 
 .social-media-icon {
     float: left;
     display: block;
-    padding-left: 5px;
+    padding-left: 20px;
 }
 
 .social-media-icon:last-child {
@@ -215,7 +215,7 @@ footer {
         width: 45%;
     }
     #description1 {
-        height: 424px;
+        height: 414px;
     }
     .card {
         height: 100%;
@@ -302,7 +302,7 @@ footer {
     .description-wrapper {
         float: left;
         width: 536px;
-        /* margin-right: 134px; */
+        margin-right: 134px;
     }
     .description-image {
         height: 325px;
@@ -368,7 +368,7 @@ footer {
         display: inline;
     }
     .quote-wrapper {
-        height: 300px;
+        height: 540px;
     }
     .nav-item {
         padding-left: 15px;
