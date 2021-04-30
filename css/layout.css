@@ -302,13 +302,13 @@ footer {
     .description-wrapper {
         float: left;
         width: 536px;
-        margin-right: 134px;
+        /* margin-right: 134px; */
     }
     .description-image {
         height: 325px;
         width: 500px;
         background-color: #a1a1a1;
-        float: left;
+        float: right;
         margin-top: 30px;
     }
     .description {
@@ -336,7 +336,7 @@ footer {
         width: 370px;
         float: left;
         margin-top: 40px;
-        margin-right: 30px;
+        margin-right: 28px;
     }
     #popular-service-wrapper {
         position: relative;
